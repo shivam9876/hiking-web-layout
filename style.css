@@ -1,0 +1,1338 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin-left: 4%;
+    text-transform: uppercase;
+}
+
+.home-section {
+    width: 100%;
+    background-image: url("image/home-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-image: url(image/Shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 123px;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 34px;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto%;
+}
+
+.logo {
+    width: 5%;
+    height: 52%;
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+.menu {
+    width: 90%;
+    height: 100%;
+    float: right;
+}
+
+.menu ul {
+
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+        justify-content: end;
+}
+
+.menu ul a {
+    font-size: 15px;
+    height: inherit;
+    color: #757573;
+    display: inline-block;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+}
+
+/* .menu ul a:hover {
+    background-color: #222;
+    color: #fff;
+} */
+
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+form.example input[type=text] {
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 70%;
+    background-color: #C8C0BC;
+    border-radius: 40px;
+}
+
+form.example button {
+    float: left;
+    /* width: 37%; */
+    padding: 9px;
+    color: #1b1a1a;
+    font-size: 19px;
+    border: none;
+    margin-top: 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: -44px;
+    background-color: #C8C0BC;
+}
+
+.fa-search {
+    color: #6e6e6e;
+}
+
+
+.home-title-description {
+    width: 36%;
+    padding: 6rem 7.313rem;
+}
+
+.home-title-description h1 {
+    font-size: 4.9rem;
+    color: #f7b66b;
+    text-transform: uppercase;
+    text-shadow: 0.188rem -0.063rem 0.188rem #0000003d;
+    margin-bottom: 0rem;
+    line-height: 1.2em;
+    font-weight: 800;
+
+}
+
+.home-title-description .subtitle {
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.188rem;
+    text-align: justify;
+    color: #5d5b55;
+    line-height: 1rem;
+}
+
+.home-title-description .button {
+    background-color: #fff;
+    border: none;
+    color: #6d6055;
+    padding: 0.625rem 2rem;
+    text-align: center;
+    font-size: 1.188rem;
+    margin: 0.25rem .0125rem;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 3.625rem;
+    margin-top: 2rem;
+    word-spacing: 2px;
+}
+
+.discription p {
+    font-size: 1.3rem;
+    word-spacing: 0;
+    color: #8f8783;
+    word-spacing: 1px;
+
+}
+
+
+.lets-go-section {
+    background-image: url(image/left_shadow.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+
+.lets-go-section img.Shape-bottom-img {
+    margin-top: -66px;
+    width: 100%;
+
+}
+
+.lets-go-title h2 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #fca238;
+    font-weight: 900;
+    margin-top: -72px;
+}
+
+.lets-go-title p {
+    text-align: center;
+    font-size: 26px;
+    padding: .063% 25%;
+    color: #86786e;
+}
+
+.row-lets-go {
+    width: 92%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    width: 26%;
+    background: #86786e;
+}
+
+.col img {
+    width: 100%;
+}
+
+.col-info-item {
+    padding: 0.625rem;
+    color: white;
+}
+
+.col-info-item h2 {
+    font-size: 1.75rem;
+}
+
+.col-info-item p {
+    font-size: 1.313rem;
+}
+
+.show-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.show-more-btn .button {
+    background-color: #86786e;
+    border: none;
+    color: white;
+    padding: 1.125rem 3.313rem;
+    text-align: center;
+    font-size: 1.188rem;
+    margin: 0.25rem 0.125rem;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 3.625rem;
+    letter-spacing: 0.188rem;
+    margin-bottom: 120px;
+}
+
+.offer-section {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.offer-section .col-50 {
+    width: 50%;
+    float: left;
+}
+
+.col-50 {
+    /* height: 717px; */
+    width: 50%;
+    min-height: 700px;
+}
+
+#col-50-img {
+    background-image: url(image/img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 50%; */
+}
+
+.offer-section img {
+    width: 100%;
+}
+
+.offer-section-info {
+    background: #85776b;
+}
+
+h2.offer-section-title {
+    color: white;
+    font-weight: 700;
+    font-size: 3.313rem;
+    padding: 5.438rem 3.75rem;
+    padding-bottom: 0;
+    padding-right: 0%;
+}
+
+.offer-section-info p {
+    padding: 0rem 3.65rem;
+    padding-right: 10%;
+    font-weight: 400;
+    font-size: 1.588rem;
+    color: white;
+}
+
+.offer-section-content1 {
+    width: 90%;
+}
+
+.image-section {
+    background-image: url(image/img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.read-more-btn .button {
+    background-color: #fca238;
+    border: none;
+    color: white;
+    padding: 1.125rem 3.313rem;
+    text-align: center;
+    font-size: 1.188rem;
+    margin: 2.5rem 3.75rem;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 3.625rem;
+    letter-spacing: 0.188rem;
+}
+
+.offer-section-info-2 {
+    background: #f7b66b !important;
+}
+
+.discount-content2 {
+    margin-left: 5rem;
+}
+
+.mountains {
+    background-image: linear-gradient(0deg, rgb(115 95 78 / 75%), rgb(8 83 156 / 0%)), url(image/left_shadow.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 14%;
+}
+
+.mountains-title h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-top: 8.75rem;
+}
+
+.mountains-title p {
+    text-align: center;
+    font-size: 1.813rem;
+    color: white;
+    padding: 0 16%;
+    padding-bottom: 5.625rem;
+    margin-bottom: 0;
+}
+
+.mountains-title {
+    position: relative;
+}
+
+#mountain-img {
+    width: 100%;
+    margin-top: 0;
+}
+
+.explore {
+    width: 100%;
+    background-image: url(image/backgound-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -9%;
+}
+
+.explore .title {
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 3rem;
+    padding: 16% 9%;
+    font-style: italic;
+    font-weight: bolder;
+    color: #e2a354;
+    text-shadow: 0.188rem -0.063rem 0.188rem #0000003d;
+}
+
+.detalis-info {
+    width: 80%;
+    margin: auto;
+    /* margin-top: 0%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.detalis-info .col {
+    background: white;
+
+}
+
+.detalis-info h2 {
+    color: #e2a354;
+    font-size: 1.875rem;
+}
+
+.quotes {
+    background-image: linear-gradient(0deg, rgb(255 255 255 / 75%), rgb(251 251 251 / 0%)), url(image/right_shadow.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 10%;
+    text-align: center;
+        background-size: 424px 484px;
+}
+
+.quotes h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.quotes p {
+    margin: 0;
+    margin-bottom: 2.5rem;
+    padding: 0 23%;
+    font-size: 1.4rem;
+}
+
+
+.subscribe {
+    background: #deb37e;
+    color: white;
+    margin-top: -8%;
+
+}
+
+.subscribe-info {
+    padding: 6% 20%;
+    text-align: center;
+}
+
+.subscribe-info h1 {
+    font-size: 60px;
+}
+
+.subscribe p {
+    font-size: 24px;
+    color: #53524e;
+
+}
+
+input[type="text"] {
+    width: 72%;
+    padding: 17px;
+    border: none;
+    border-radius: 44px;
+
+}
+
+.subscribe button {
+    padding: 13px 41px 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: #504e48;
+    font-size: 18px;
+    margin-left: -209px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.shape-mountains {
+    min-height: 196px;
+    width: 100%;
+    background-image: url(image/Shape-bottom.png);
+    background-size: cover;
+    background-position: bottom 20%;
+    background-position: bottom 10%;
+    background: bottom 10%;
+
+}
+
+.shape-subscribe {
+    min-height: 181px;
+    width: 100%;
+    background-image: url(image/Shape-bottom.png);
+    background-size: cover;
+    background-position: bottom 20%;
+    background-position: bottom 10%;
+    background: bottom 10%;
+}
+
+.search-container {
+    margin: 8% 0;
+}
+
+.footer {
+    background: #89776e;
+    margin-top: -8%;
+    padding-bottom: 4%;
+
+}
+
+.footer-row {
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.footer-row .title {
+    width: 40%;
+    color: white;
+}
+
+.footer-row .title h2 {
+    font-size: 1.875rem;
+}
+
+.footer-title-discription {
+    width: 80%;
+    font-size: 21px;
+}
+
+.social-media .fa {
+    padding: 0.317rem;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.375rem 0;
+    border-radius: 48px;
+    padding-top: .35rem;
+    width: 28px;
+    margin-left: 7px;
+    background: white;
+    color: #85786c;
+}
+
+.fa-facebook {
+    padding-top: .35rem;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.about,
+.services,
+.other {
+    /* width: 18%; */
+    font-size: 20px;
+}
+
+.footer-para {
+    margin: 10px 0;
+
+}
+
+#new-social {
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 2560px) and (min-width: 2500px) {
+    .menu ul a {
+        font-size: 1.6rem;
+    }
+
+    header {
+        background-size: cover;
+    }
+
+    .logo {
+        width: 4%;
+        height: 70%;
+    }
+
+    .lets-go-title p {
+        font-size: 44px;
+    }
+
+    .menu ul {
+      
+        margin-top: 2%;
+       
+    }
+
+    .home-title-description h1 {
+        font-size: 7.9rem;
+    }
+
+    .home-title-description .subtitle {
+        font-size: 2.375rem;
+    }
+
+    .discription p {
+        font-size: 2.4rem;
+    }
+
+    .home-title-description .button {
+        padding: 1.625rem 3.5rem;
+        font-size: 2rem;
+    }
+
+    .home-section {
+        background-position: center 30%;
+    }
+
+    .lets-go-section img.Shape-bottom-img {
+        margin-top: -103px;
+    }
+
+    .lets-go-title h2 {
+        font-size: 5.5rem;
+        margin-top: -75px;
+    }
+
+    .col-info-item h2 {
+        font-size: 2.5rem;
+    }
+
+    .col-info-item p {
+        font-size: 2rem;
+    }
+
+    .show-more-btn .button {
+        font-size: 2rem;
+
+    }
+
+    h2.offer-section-title {
+
+        font-size: 4.313rem;
+        margin-left: 1px;
+    }
+
+    .offer-section-info p {
+        font-size: 2em;
+        margin-left: 1px;
+    }
+
+    .offer-section-content1 {
+
+        margin-left: 3%;
+    }
+
+    .read-more-btn .button {
+        font-size: 1.8rem;
+        margin-left: 49px;
+    }
+
+    .image-section {
+        background-position: center 40%;
+    }
+
+    #col-50-img {
+
+        background-position: center 75%;
+    }
+
+    .shape-mountains {
+        min-height: 385px;
+    }
+
+    .mountains-title h2 {
+        font-size: 4.5rem;
+    }
+
+    .mountains-title p {
+
+        font-size: 2.813rem;
+    }
+
+    .explore .title {
+        font-size: 5rem;
+    }
+
+    .explore {
+
+        margin-top: -222px;
+    }
+
+    .subscribe {
+        margin-top: -25px;
+    }
+
+
+    #shape-one {
+        min-height: 305px;
+    }
+
+    #shape-two {
+        min-height: 328px;
+
+    }
+
+    .detalis-info h2 {
+        font-size: 3.875rem;
+    }
+
+    .detail-para {
+        font-size: 2rem;
+    }
+
+    .quotes p {
+        font-size: 2.2rem;
+
+    }
+
+    .quotes h3 {
+        font-size: 2rem;
+    }
+
+    .quotes {
+        background-position: right bottom 50%;
+        margin-bottom: 9px;
+        background-size: contain;
+    }
+
+    .subscribe-info h1 {
+        font-size: 90px;
+    }
+
+    .subscribe p {
+        font-size: 37px;
+    }
+
+    .subscribe button {
+        padding: 21px 35px;
+        font-size: 29px;
+        border-radius: 40px;
+
+    }
+
+    input[type="text"] {
+        width: 50%;
+        padding: 22px;
+        font-size: 22px;
+    }
+
+    .footer-row .title h2 {
+        font-size: 3rem;
+    }
+
+    .footer-title-discription {
+        font-size: 32px
+    }
+
+    .social-media .fa {
+        padding: 0.317rem;
+        font-size: 37px;
+        /* margin: 1.375rem 0; */
+        padding-top: 0.35rem;
+        width: 40px;
+    }
+
+    .about,
+    .services,
+    .other {
+        /* width: 18%; */
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+   
+
+    header {
+        height: 103px;
+
+    }
+
+    .logo {
+        width: 6%;
+        height: 52%;
+    }
+
+    .lets-go-title p {
+        font-size: 20px;
+    }
+
+    .offer-section-info p {
+
+        font-size: 1.47rem;
+    }
+
+    h2.offer-section-title {
+        font-size: 3rem;
+    }
+
+    .mountains-title p {
+        font-size: 1.4rem;
+    }
+
+    .explore {
+        background-position: right;
+    }
+
+    .explore-heading {
+        font-size: 3.6rem;
+    }
+
+    .footer-title-discription {
+        font-size: 17px;
+    }
+
+    .about,
+    .services,
+    .other {
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 84%;
+        height: 100%;
+        float: right
+    }
+
+    .discount-content2 {
+        margin-left: 5px;
+        margin-right: 2px;
+
+    }
+
+    h2.offer-section-title {
+        font-size: 3.313rem;
+        padding: 2.438rem 2.5rem;
+        padding-bottom: 0;
+        padding-left: 12%;
+        padding-right: 4%;
+    }
+
+    .explore-heading {
+        font-size: 3rem;
+    }
+
+    input[type="text"] {
+        width: 73%;
+        padding: 14px;
+    }
+
+    .subscribe button {
+padding: 12px 21px;
+    margin-left: -141px;
+    }
+
+
+    .subscribe p {
+        font-size: 21px;
+    }
+
+    .quotes p {
+        padding: 0px 8%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 11%;
+    height: auto;
+    }
+
+    header {
+        height: 123px;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu ul {
+        display: block;
+        max-height: 0;
+        overflow: hidden;
+        margin: 0px;
+    }
+
+
+    .menu ul li {
+        text-align: left;
+    height: 50px;
+    background-color: #fff;
+    padding: 5px 0px 5px 5%;
+    border-bottom: 1px solid #8080803d;
+    }
+
+    form.example input[type=text] {
+        width: 94%;
+    margin-left: 0;
+    margin-top: 2px;
+    }
+
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 52px;
+        right: 0;
+        line-height: 60px;
+    }
+
+    #menuToggle:checked ~ ul {
+        max-height: 350px;
+
+    }
+
+    .discount-content2 {
+        margin-left: 0rem;
+    }
+
+    .discount-content1 {
+        padding-right: 0;
+    }
+
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+
+    .home-title-description {
+
+        width: 50%;
+        padding: 6rem 3rem;
+    }
+
+    .home-title-description h1 {
+        font-size: 3.9rem;
+    }
+
+    .lets-go-title p {
+
+        font-size: 1.3rem;
+        padding: 1px 17px;
+    }
+
+    .lets-go-section img.Shape-bottom-img {
+        margin-top: -30px;
+    }
+
+    .mountains-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .mountains {
+        background-position: left bottom 6%;
+    }
+
+    .mountains-title p {
+        font-size: 1.4rem;
+    }
+
+    .row-lets-go {
+        display: contents;
+    }
+
+    .explore {
+        background-size: contain;
+    }
+
+    .col {
+        width: 80%;
+        background: #86786e;
+        margin: 10%;
+    }
+
+    .offer-section .col-50 {
+        width: 100%;
+        height: auto;
+    }
+
+    .detalis-info .col {
+        width: 100%;
+        margin: 2%;
+    }
+
+    .quotes {
+        background-size: contain;
+        padding: 2%;
+    }
+
+    .quotes h2 {
+        padding: 0;
+    }
+
+    .subscribe-info {
+        padding: 6% 10%;
+        text-align: center;
+    }
+
+    .explore {
+        background-position: right;
+    }
+
+    h2.offer-section-title {
+        padding-left: 55px;
+    }
+
+    .quotes p {
+        padding: 0 2%;
+    }
+
+    input[type="text"] {
+        width: 67%;
+        padding: 12px;
+    }
+
+    .subscribe button {
+        padding: 10px 17px;
+        margin-left: -129px;
+        font-size: 18px;
+    }
+
+    .subscribe-info h1 {
+        font-size: 54px;
+    }
+
+    .subscribe p {
+        font-size: 21px;
+    }
+
+    .footer-row {
+        /* display: block; */
+        text-align: center;
+    }
+
+    .footer-row .title,
+    .footer-title-discription {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .footer-row .title h2 {
+        margin-left: -57px;
+    }
+
+    .about,
+    .services,
+    .other {
+        font-size: 17px;
+    }
+
+    .footer-para {
+        margin: 12px 7px;
+        font-size: 16px;
+    }
+
+    li {
+        margin-left: 0;
+    }
+
+    #social-media-one {
+        display: none;
+    }
+
+    #new-social {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 440px) {
+    .menu-icon {
+        top: 25px;
+    }
+
+    header {
+        height: 88px;
+        padding: 15px 0;
+    }
+
+    .logo {
+        width: 13%;
+        
+    }
+
+    .home-title-description {
+        width: 79%;
+        padding: 25px;
+    }
+
+    .home-title-description h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-title-description .subtitle {
+        font-size: 1.1rem;    letter-spacing: 0px;
+    }
+
+    .home-title-description .button {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .discription p {
+        font-size: 0.9rem;
+        width: 60%;
+    }
+
+    .mountains {
+        background-position: left bottom 4%;
+    }
+
+    .lets-go-section {
+        background-size: contain;
+    }
+
+
+    /* .home-section {
+        background-size: contain;
+    }
+
+    .home-title-description h1 {
+        font-size: 1.9rem;
+    }
+
+    .home-title-description .subtitle {
+        font-size: 0.5rem;
+    }
+
+    .home-title-description .button {
+        padding: 0.2rem 0.5rem;
+        font-size: 7px;
+        margin: 0.25rem 0.0125rem;
+        font-weight: 800;
+    } */
+
+    /*form.example input[type=text] {
+        width: 51%;
+        margin-left: 25%;
+    }*/
+
+    .lets-go-title h2 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .lets-go-title p {
+        font-size: 18px;
+    }
+
+    h2.offer-section-title {
+        font-size: 2.4rem;
+        margin-left: 3%;
+    }
+
+    .offer-section-info p {
+        font-size: 1.3rem;
+        margin-left: 0;
+
+    }
+
+    .read-more-btn .button {
+        padding: 1.125rem 2rem;
+        font-size: 1rem;
+        margin: 0.5rem 3.75rem;
+        margin-bottom: 25px;
+
+
+    }
+
+    .mountains-title h2 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .col-50 {
+        min-height: 350px;
+    }
+
+    h2.offer-section-title {
+        margin-left: 3%;
+    }
+
+    input[type="text"] {
+        width: 79%;
+        padding: 11px;
+        border: none;
+        border-radius: 44px;
+    }
+
+    .subscribe button {
+        padding: 11px 9px 12px;
+        border-radius: 30px;
+        font-size: 13px;
+        margin-left: -85px;
+    }
+
+    .explore-heading {
+        font-size: 2rem;
+        margin-left: 2px;
+        margin-top: 13%;
+    }
+
+    .explore {
+        background-position: right;
+        background-size: cover;
+    }
+
+    .mountains-title {
+        margin-top: -26%;
+        margin-bottom: -13%;
+
+    }
+
+    .shape-mountains {
+        min-height: 84px;
+    }
+
+    .shape-subscribe {
+        min-height: 56px;
+    }
+
+    .mountains-title p {
+
+        font-size: 1.2rem;
+    }
+
+    .quotes p {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .subscribe-info h1 {
+        font-size: 45px;
+    }
+
+    .subscribe p {
+        font-size: 13px;
+    }
+
+    .row-lets-go {
+        display: contents;
+    }
+
+    .footer-row {
+        display: block;
+    }
+
+    .footer-row .title,
+    .footer-title-discription {
+        width: 100%;
+    }
+
+    .footer-row .title h2 {
+        margin-left: -15px;
+    }
+
+    .col {
+        width: 90%;
+        margin: 19% 20px;
+        background: #86786e;
+    }
+
+    .detalis-info {
+        display: block;
+    }
+
+    .about,
+    .services,
+    .other {
+        display: inline-block;
+    }
+
+    .about,
+    .services,
+    .other {
+        width: 49%;
+        font-size: 18px;
+    }
+
+    .footer-para {
+        font-size: 15px;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    #new-social {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        height: 20px;
+        padding: 15px 0;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .logo {
+        width: 15%;
+        height: 41px;
+    }
+
+    header {
+        height: 12px;
+        padding: 15px 0;
+    }
+
+
+    .home-title-description h1 {
+        font-size: 3.9rem;
+    }
+
+    .home-title-description .subtitle {
+        letter-spacing: 0;
+    }
+
+    h2.offer-section-title {
+        padding: 2.438rem 1.75rem;
+    }
+
+    .offer-section-info p {
+        padding: 0rem 2.1rem;
+        padding-right: 5px;
+    }
+
+    .mountains-title p {
+        padding: 0px 10%;
+        padding-bottom: 58px;
+
+    }
+
+    .explore .title {
+        font-size: 2.3rem;
+        padding: 0% 1%;
+    }
+}
